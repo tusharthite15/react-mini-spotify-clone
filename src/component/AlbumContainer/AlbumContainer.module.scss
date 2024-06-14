@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 16px;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1000px;
+
+  @media (max-width: 430px) {
+    max-width: 360px;
+  }
+
+  margin-bottom: 12vh;
+
+  div {
+    @media (max-width: 430px) {
+      width: 130px;
+      height: 200px;
+    }
+
+    border-radius: 4px;
+    background: #282828;
+    margin: 8px;
+    padding: 16px;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    img {
+      width: 100%;
+    }
+
+    h2 {
+      color: whitesmoke;
+      font-size: 1rem;
+    }
+
+    p {
+      color: #b3b3b3;
+      font-size: 1rem;
+    }
+  }
+}

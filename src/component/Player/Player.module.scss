@@ -1,0 +1,14 @@
+.wrapper {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+
+  @media (max-width: 430px) {
+    height: 100px;
+  }
+
+  background-color: #282828;
+  border-top: 2px solid black;
+}
